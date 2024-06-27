@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <batup-bakery-plugin.version>2.16.0</batup-bakery-plugin.version>
+    <go-maven-plugin.version>1.23.1</go-maven-plugin.version>
+    <worker.version>0.55.0</worker.version>
+    <worker-matlab.version>0.29.0</worker-matlab.version>
+    <modelVersion>4.0.0</modelVersion>
+    </properties>
+    <distributionManagement>
+        <site>
+            <id>doc_website</id>
+        </site>
+    </distributionManagement>
+    <scm>
+        <connection>git:git@github.mathworks.com:something.git</connection>
+        <developerConnection>git:git@github.mathworks.com:something.git</developerConnection>
+    </scm>
+</project>
