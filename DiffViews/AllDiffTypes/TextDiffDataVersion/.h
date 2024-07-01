@@ -1,10 +1,8 @@
 project
 modelVersion 4.0.0
 parent
-groupId com.mathworks.cloudservices.base
 artifactId base
 version 1.6.0
-groupId com.mathworks.dc.simulink-model-extension
 artifactId simulink-model-extension
 version 0.5.0-SNAPSHOT
 packaging pom
@@ -17,7 +15,7 @@ distributionManagement
 site
 id doc_website
 name MathWorks Maven Project Docs
-url file:/mathworks/inside/files/dev/tools/maven_sites/dc/simulink-model-extension/versions/${project.version}/
+
 modules
 module
 matlab-scripts

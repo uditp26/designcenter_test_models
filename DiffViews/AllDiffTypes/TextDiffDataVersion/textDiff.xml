@@ -2,25 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.mathworks.cloudservices.base</groupId>
         <artifactId>base</artifactId>
         <version>1.6.0</version>
     </parent>
-    <groupId>com.mathworks.dc.simulink-model-extension</groupId>
     <artifactId>simulink-model-extension</artifactId>
     <version>0.5.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>SDFDGFDH</packaging>
     <properties>
-        <batup-bakery-plugin.version>2.16.0</batup-bakery-plugin.version>
+        <batup-bakery-plugin.version>2.35.0</batup-bakery-plugin.version>
         <go-maven-plugin.version>1.23.1</go-maven-plugin.version>
-        <worker.version>0.55.0</worker.version>
+        <worker.version>1.55.0</worker.version>
         <worker-matlab.version>0.29.0</worker-matlab.version>
     </properties>
     <distributionManagement>
         <site>
             <id>doc_website</id>
             <name>MathWorks Maven Project Docs</name>
-            <url>file:/mathworks/inside/files/dev/tools/maven_sites/dc/simulink-model-extension/versions/${project.version}/</url>
         </site>
     </distributionManagement>
     <modules>
@@ -38,8 +35,6 @@
         <module>deployments/chart/worker</module>        
     </modules>
     <scm>
-        <connection>scm:git:git@github.mathworks.com:development/simulink-model-extension.git</connection>
-        <developerConnection>scm:git:git@github.mathworks.com:development/simulink-model-extension.git</developerConnection>
     </scm>
     <build>
         <plugins>

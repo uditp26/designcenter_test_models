@@ -1,5 +1,6 @@
 node_modules/
 /test-results/
-/sahkd
-sadsd
+/playwright-report/
+/playwright/.cache/
+/playwright/.auth/
 
